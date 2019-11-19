@@ -1,0 +1,68 @@
+{
+  "16e689a2820": {
+    "path": "game\\Begin.ts",
+    "class": "Begin",
+    "parentPath": ""
+  },
+  "16e68a31714": {
+    "path": "game\\ChooseLevels.ts",
+    "class": "ChooseLevels",
+    "parentPath": ""
+  },
+  "16e68a4e08a": {
+    "path": "game\\LevelsGame.ts",
+    "class": "LevelsGame",
+    "parentPath": ""
+  },
+  "16e68a63fd4": {
+    "path": "..\\resource\\game\\Set.ts",
+    "class": "Set",
+    "parentPath": ""
+  },
+  "16e68a6dbb6": {
+    "path": "game\\SetGame.ts",
+    "class": "SetGame",
+    "parentPath": ""
+  },
+  "16e6d14f743": {
+    "path": "game\\levIcon.ts",
+    "class": "levIcon",
+    "parentPath": ""
+  },
+  "16e6d15c648": {
+    "path": "game\\levelIcon.ts",
+    "class": "levelIcon",
+    "parentPath": "resource/eui_skins/ButtonSkin.exml"
+  },
+  "16e6d95360c": {
+    "path": "game\\btnIcon.ts",
+    "class": "btnIcon",
+    "parentPath": "resource/eui_skins/ButtonSkin.exml"
+  },
+  "16e6de6f64b": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -104
+      }
+    ]
+  },
+  "16e7df692c8": {
+    "path": "game\\loading.ts",
+    "class": "loading",
+    "parentPath": ""
+  },
+  "16e7e146be4": {
+    "path": "..\\resource\\game\\press.ts",
+    "class": "press",
+    "parentPath": ""
+  },
+  "16e7e152ceb": {
+    "path": "game\\press.ts",
+    "class": "press",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
+}

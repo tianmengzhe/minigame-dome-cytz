@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pressSkin" width="400" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e7e152ceb" ></w:Config>
+	<e:Rect id="rect" width="400" height="15" x="0" y="0" ellipseWidth="15" ellipseHeight="15" fillColor="0xffffff" locked="true"/>
+	<e:Rect id="press_val" width="40" height="15" x="0" y="0" fillColor="0x13cadb" scaleX="1" ellipseWidth="15" ellipseHeight="15"/>
+	<e:Group width="220" height="23" x="87" y="15.5" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label id="lab_text" text="进度" x="86" size="18" y="6"/>
+	</e:Group>
+</e:Skin>

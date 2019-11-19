@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e6ddba53c" ></w:Config>
+	<e:Image source="GameBG3_jpg" x="0" width="640" locked="true"/>
+	<e:Button id="btn_return" label="" x="15" y="14" anchorOffsetX="0" width="81" anchorOffsetY="0" height="61" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="WordFrame_png" x="0" y="98" anchorOffsetX="0" width="642" anchorOffsetY="0" height="447" locked="true"/>
+	<e:Image id="img" width="389" height="261" x="123" y="164" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:Group id="gp_answer" width="365" height="78" x="134" y="442" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+	</e:Group>
+	<e:Group id="gp_select" width="565" height="512" x="41" y="581" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+	</e:Group>
+	<e:Group id="gp_win" width="584" height="388" x="31.5" y="672" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false">
+		<e:Image source="Result_png" x="0" y="0" anchorOffsetX="0" width="584" anchorOffsetY="0" height="388"/>
+		<e:Label id="label_tip" text="成语提示" x="84" y="102" textColor="0x000000"/>
+		<e:Label id="libel_content" text="成语出处" x="84" y="194" textColor="0x000000"/>
+		<e:Button id="btn_next" label="" x="413" y="308" anchorOffsetX="0" width="107" anchorOffsetY="0" height="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn_png" source.down="ResultBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="gp_message" width="584" height="300" x="28" y="672" locked="true" visible="false">
+		<e:Image source="Dialog_png" x="40"/>
+		<e:Label id="label_word" text="提示信息" x="81" y="73" textColor="0x000000"/>
+		<e:Button id="btn_msg" label="" x="447.5" y="197" anchorOffsetY="0" height="49" anchorOffsetX="0" width="70">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

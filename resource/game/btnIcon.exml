@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="btnIconSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="77" height="77">
+	<e:Image id="imgTrue" source="gs_select_1_png" x="0" y="0" height="77" includeIn="up,down"/>
+	<e:Image id="imgFalse" source="gs_select_dis_png" x="0" y="0" width="77" height="77" includeIn="disabled"/>
+	<e:Label id="lev_text" text="100" x="11" y="23.5" width="55" height="30" anchorOffsetX="0" textAlign="center"/>
+
+	<w:Config id="16e6d95360c" ></w:Config>
+</e:Skin>
