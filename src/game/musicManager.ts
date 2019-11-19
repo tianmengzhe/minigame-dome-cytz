@@ -48,10 +48,10 @@ class musicManager {
 	}
 
 	
-
 	// 播放背景音乐
 	public playBgMusic(){
-		if(this.bg_music && this.isBgMusic){
+		console.log(this.soundChannel)
+		if(this.bg_music && this.isBgMusic && !this.soundChannel){
 			this.soundChannel = this.bg_music.play(0,0)  //play(播放开始位置，循环次数) 0无限播放
 		}
 	}
@@ -60,6 +60,7 @@ class musicManager {
 	public stopBgMusic(){
 		if(this.soundChannel){
 			this.soundChannel.stop()
+			this.soundChannel = null
 		}
 	}
 
